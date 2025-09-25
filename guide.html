@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NZBP — Help</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icons/favicon.ico">
+  <style>
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; margin: 0; padding: 24px; line-height: 1.5; background:#0b1020; color:#e5e7eb;}
+    .page { max-width: 860px; margin: 0 auto; }
+    h1 { font-size: clamp(1.6rem,2vw+1rem,2.2rem); margin: 0 0 12px; }
+    h2 { margin: 24px 0 8px; }
+    .card { background:#111827; border:1px solid rgba(255,255,255,0.08); border-radius: 14px; padding:16px 18px; margin:12px 0; }
+    .muted { color:#9ca3af; }
+    code, pre { background: #0f172a; padding: 3px 6px; border-radius: 6px; }
+    @media print { body { background:#fff; color:#000 } .card { border-color:#ddd; background:#fff } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Help</h1>
+    <p class="muted">Short, friendly instructions. No tech terms needed.</p>
+
+    <div class="card">
+      <h2>What this app does</h2>
+      <ul>
+        <li>Add items with a <strong>title</strong>, an <strong>amount</strong>, and an optional <strong>link</strong>.</li>
+        <li>Everything saves on your device and works <strong>offline</strong>.</li>
+        <li>You can <strong>Export</strong> to a file and save it to Google Drive/Dropbox.</li>
+        <li>You can <strong>Import</strong> that file on any device to restore your items.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>How to install</h2>
+      <ul>
+        <li><strong>Android / Chromebook / PC (Chrome/Edge):</strong> Open the app link → click the install icon in the address bar (or menu → Install).</li>
+        <li><strong>iPhone/iPad:</strong> Open in Safari → Share → Add to Home Screen.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>How to back up</h2>
+      <ol>
+        <li>Tap <strong>Export</strong>. A file named <code>nzbp-backup.json</code> will download.</li>
+        <li>Save that file in a safe place (Google Drive, Dropbox, or email it to yourself).</li>
+        <li>To restore on any device: tap <strong>Import</strong> and pick that file.</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>Tips</h2>
+      <ul>
+        <li>Use the color circles at the top to switch themes. Your choice is remembered.</li>
+        <li>You can click “Open” in the table to visit item links.</li>
+        <li>The app works without internet once it’s been opened at least once.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
